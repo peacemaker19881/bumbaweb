@@ -1,23 +1,23 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import studentregistration from './components/studentregistration.vue';
-import updatestudent from './components/updatestudent.vue';
-import bookregistration from './components/bookregistration.vue';
+import studentregistration_component from './components/studentregistration_component.vue';
+import updatestudent_component from './components/updatestudent_component.vue';
+import bookregistration_component from './components/bookregistration_component.vue';
 
 const routes = [
   {
-    path: '/studentregistration',
-    name: 'studentregistration',
-    component: studentregistration,
+    path: '/studentregistration_component',
+    name: 'studentregistration_component',
+    component: studentregistration_component,
   },
   {
-    path: '/updatestudent',
-    name: 'updatestudent',
-    component: updatestudent,
+    path: '/updatestudent_component',
+    name: 'updatestudent_component',
+    component: updatestudent_component,
   },
   {
-    path: '/bookregistration',
-    name: 'bookregistration',
-    component: bookregistration,
+    path: '/bookregistration_component',
+    name: 'bookregistration_component',
+    component: bookregistration_component,
   },
 ];
 

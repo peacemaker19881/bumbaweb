@@ -8,7 +8,7 @@
   
   <script>
   export default {
-    name: 'updatestudent',
+    name: 'updatestudent_component',
   };
   </script>
   

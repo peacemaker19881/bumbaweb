@@ -8,7 +8,7 @@
   
   <script>
   export default {
-    name: 'bookregistration',
+    name: 'bookregistration_component',
   };
   </script>
   
