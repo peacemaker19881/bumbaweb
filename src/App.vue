@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/studentregistration">Student Registration</router-link>
-      <router-link to="/updatestudent">Update Student</router-link>
-      <router-link to="/bookregistration">Book Registration</router-link>
+      <router-link to="/studentregistration_comonent">Student</router-link>
+      <router-link to="/updatestudent_component">Update</router-link>
+      <router-link to="/bookregistration_component">Book</router-link>
     </nav>
     <router-view />
   </div>
